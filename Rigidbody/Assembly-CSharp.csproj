@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Myball.cs" />
+    <Compile Include="Assets\OtherBall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
