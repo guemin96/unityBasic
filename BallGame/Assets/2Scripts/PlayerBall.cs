@@ -53,8 +53,14 @@ public class PlayerBall : MonoBehaviour
         {
             if (itemCount==manager.totalItemCount)//게임 클리어 요건
             {
-                SceneManager.LoadScene("Example1_"+(manager.stage+1).ToString());
-
+                if (manager.stage==2)
+                {
+                    SceneManager.LoadScene("Example1_0");
+                }
+                else
+                {
+                    SceneManager.LoadScene("Example1_" + (manager.stage + 1).ToString());
+                }
             }
             else//restart
             {
