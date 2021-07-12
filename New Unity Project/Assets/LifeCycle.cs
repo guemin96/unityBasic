@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class LifeCycle : MonoBehaviour
 {
-
     void Update()
     {
         if(Input.anyKeyDown)
@@ -66,7 +65,7 @@ public class LifeCycle : MonoBehaviour
 }
 
 
-// 유니티 LIFE CYCLE 설명
+//유니티 LIFE CYCLE 설명
 // Awake와 Start는 초기화의 영역
 //void Awake()
 //{
@@ -95,7 +94,7 @@ public class LifeCycle : MonoBehaviour
 //}
 //void LateUpdate()// 로직의 후처리를 담당
 //{
-//    Debug.Log("경험치 획득");   
+//    Debug.Log("경험치 획득");
 //}
 ////비활성화 영역
 //void OnDisable()
