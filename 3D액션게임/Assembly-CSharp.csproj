@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2Script\Follow.cs" />
+    <Compile Include="Assets\2Script\Item.cs" />
     <Compile Include="Assets\2Script\Player.cs" />
+    <Compile Include="Assets\2Script\camera.cs" />
     <Compile Include="Assets\QuarterView 3D Action BE5\ReadMe\Scripts\ReadmeBE5.cs" />
   </ItemGroup>
   <ItemGroup>

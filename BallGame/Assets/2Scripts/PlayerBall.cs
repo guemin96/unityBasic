@@ -41,6 +41,7 @@ public class PlayerBall : MonoBehaviour
             isJump = false;
         }
     }
+   
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Item")
@@ -68,5 +69,7 @@ public class PlayerBall : MonoBehaviour
             }
         }
     }
+    
+    
 
 }
